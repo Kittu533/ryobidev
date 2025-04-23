@@ -18,5 +18,10 @@ export default defineNuxtConfig({
         propsDestructure: true
       }
     }
+  },
+  postcss: {
+    plugins: {
+      'postcss-minify-selectors': false // sementara nonaktifkan dulu kalau urgent
+    }
   }
 })

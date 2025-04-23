@@ -589,7 +589,6 @@ onMounted(() => {
 html {
   scroll-behavior: smooth;
 }
-* Background Beams Effect */
 .background-beams {
   pointer-events: none;
   position: absolute;
