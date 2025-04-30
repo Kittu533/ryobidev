@@ -10,7 +10,7 @@
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-between h-16">
           <a href="#" class="text-xl font-bold tracking-tighter">
-            <span class="text-white">Ryobi</span><span class="text-gray-500">.</span>
+            <span class="text-white">Ryobi</span><span class="text-purple-500">dev</span>
           </a>
           <div class="hidden md:flex space-x-8">
             <a v-for="(item, index) in navItems" :key="index" :href="item.href" 
